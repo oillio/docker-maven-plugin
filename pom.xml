@@ -210,7 +210,6 @@
                             </properties>
                             <goals>
                                 <goal>clean</goal>
-                                <goal>verify</goal>
                                 <goal>deploy</goal>
                             </goals>
                         </configuration>
