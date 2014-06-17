@@ -20,7 +20,7 @@ import java.util.Properties;
 abstract class AbstractDockerMojo extends AbstractMojo {
 
 	/**
-	 * The host, e.g. -Ddocker.host=http://127.0.0.1:4243
+	 * The host, e.g. -Ddocker.host=http://127.0.0.1:2375
 	 */
 	@Parameter(defaultValue = DockerOrchestrator.DEFAULT_HOST, property = "docker.host")
 	private URI host;
