@@ -8,6 +8,9 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+            <properties>
+              <altDeploymentRepository>local::default::@localRepositoryUrl@</altDeploymentRepository>
+            </properties>
             <repositories>
                 <repository>
                     <id>local.central</id>
